@@ -43,13 +43,13 @@ No se requieren dependencias externas ni instalación adicional.
 
 ## Estructura del Proyecto
 
-`
+```
    challenge-amigo-secreto_esp-main/
    ├── index.html
    ├── style.css
    ├── app.js
    └── README.md
-`
+```
 
 - `index.html`: Estructura principal de la aplicación.
 - `style.css`: Estilos visuales y responsivos.
