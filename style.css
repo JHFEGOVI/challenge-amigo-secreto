@@ -116,8 +116,8 @@ button {
 }
 
 .button-add {
-    background-color: var(--color-tertiary);
-    color: var(--color-text);
+    background-color: rgba(0, 0, 251, 0.724);
+    color: white;
     border-radius: 0 25px 25px 0;
 }
 
@@ -136,7 +136,7 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: #6305df;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -158,5 +158,27 @@ ul {
 }
 
 .button-draw:hover {
+    background-color: var(--color-button-hover);
+}
+
+/* Botón de reiniciar título */
+
+.button-reset {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    padding: 10px 45px;
+    color: var(--color-white);
+    background-color: rgb(188, 47, 47);
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 31px; /* Mueve el botón hacia la derecha */
+}
+
+.button-reset img {
+    margin-right: 40px;
+}
+
+.button-reset:hover {
     background-color: var(--color-button-hover);
 }
