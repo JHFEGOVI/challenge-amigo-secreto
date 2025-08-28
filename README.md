@@ -44,11 +44,11 @@ No se requieren dependencias externas ni instalación adicional.
 ## Estructura del Proyecto
 
 `
-challenge-amigo-secreto_esp-main/
-├── index.html
-├── style.css
-├── app.js
-└── README.md
+   challenge-amigo-secreto_esp-main/
+   ├── index.html
+   ├── style.css
+   ├── app.js
+   └── README.md
 `
 
 - `index.html`: Estructura principal de la aplicación.
